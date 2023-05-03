@@ -1,0 +1,30 @@
+To generate the coverage report in HTML format using gcov, you can use the following command:
+gcov --branch-probabilities --function-summaries --object-directory obj/ --output-directory coverage/ -o src/ src/timer.cpp
+
+To generate a code coverage report in HTML format using gcov, you can use the following command:
+gcovr -r . --html-details -o coverage_report.html
+
+
+#example:
+Sure, here's an example:
+
+Let's say we have a function foo() in a file called example.cpp. We want to see how many lines of code in foo() are actually being executed when we run our test cases.
+
+We can use a code coverage tool like gcov to generate a coverage report. To generate the report, we need to first compile our code with the -fprofile-arcs and -ftest-coverage options. For example
+
+g++ -fprofile-arcs -ftest-coverage example.cpp -o example_test
+
+Then, we can run our test cases and collect coverage data by running:
+./example_test
+
+After the test cases have finished running, we can generate a coverage report by running:
+gcov example.cpp
+
+This will generate a example.cpp.gcov file that contains information about which lines of code were executed during the test run. We can open this file in a text editor or a tool like lcov to see the coverage report. The output will show us which lines of code were executed and which lines were not.
+
+
+#about gcov tool
+gcov is a code coverage tool used in software development to analyze which parts of the code are executed during the testing process. It works by instrumenting the compiled code with additional instructions that keep track of the number of times each line of code is executed during program execution. After the program is run, gcov generates a coverage report in the form of an annotated source file, which shows which lines of code were executed and how many times.
+
+The gcov tool is usually used in combination with the GNU Compiler Collection (gcc) and the GNU Debugger (gdb). It can be invoked from the command line or integrated into an automated build system or continuous integration (CI) pipeline to ensure that code coverage is regularly monitored and improved. The tool is particularly useful for identifying untested code paths and verifying that test cases exercise all the critical parts of the code.
+
