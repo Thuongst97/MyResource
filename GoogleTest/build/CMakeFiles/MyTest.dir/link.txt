@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/MyTest.dir/test/MyTest.cpp.o -o MyTest  -Wl,-rpath,/home/thuongst/GoogleTest/build -lgtest -lgmock -lpthread libMyClass.so libMyClass2.a 

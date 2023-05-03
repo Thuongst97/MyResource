@@ -1,0 +1,5 @@
+/home/thuongst/GoogleTest/build/CMakeFiles/MyClass.dir
+/home/thuongst/GoogleTest/build/CMakeFiles/MyClass2.dir
+/home/thuongst/GoogleTest/build/CMakeFiles/MyTest.dir
+/home/thuongst/GoogleTest/build/CMakeFiles/edit_cache.dir
+/home/thuongst/GoogleTest/build/CMakeFiles/rebuild_cache.dir
