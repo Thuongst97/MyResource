@@ -1,0 +1,9 @@
+/home/thuongst/MySource/build/CMakeFiles/PowerManager.dir
+/home/thuongst/MySource/build/CMakeFiles/Watchdog.dir
+/home/thuongst/MySource/build/CMakeFiles/UT_HealthManager.dir
+/home/thuongst/MySource/build/CMakeFiles/edit_cache.dir
+/home/thuongst/MySource/build/CMakeFiles/rebuild_cache.dir
+/home/thuongst/MySource/build/CMakeFiles/list_install_components.dir
+/home/thuongst/MySource/build/CMakeFiles/install.dir
+/home/thuongst/MySource/build/CMakeFiles/install/local.dir
+/home/thuongst/MySource/build/CMakeFiles/install/strip.dir

@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/UT_HealthManager.dir/testscripts/gtest_main.cpp.o CMakeFiles/UT_HealthManager.dir/testscripts/UT_HealthManager_main.cpp.o -o bin/UT_HealthManager   -L/home/thuongst/MySource/lib  -Wl,-rpath,/home/thuongst/MySource/build:/home/thuongst/MySource/lib libPowerManager.so libWatchdog.so -lpthread -lgtest -lgmock -lstdc++ 
